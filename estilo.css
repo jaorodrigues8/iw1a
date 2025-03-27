@@ -2,7 +2,7 @@ body, html{
     background-color: #ff6500;
 }
 div{
-    border: 5px solid #0f0;
+    
 }
 p{
     border: 5px solid #0f0;
@@ -11,14 +11,44 @@ h1{
     border: 5px solid #0f0;
 }
 .card{
-    background-color: #ffffff;
+    background-color: #ffff;
     width: 250px;
-    border: 5px solid #0000ff;
+    box-shadow: 0 0 10px 2px #1242c5;
+    padding:5px 8px;
+    border-radius: 10pt;
+
 }
 .card-imagem{
     margin-top: 25px;
     margin-left: 30px;
     margin-right: 10px;
-    margin: 10px;
-    border:1px double #ffff00;
+    margin-bottom: 40px;
+    width: 200px;
+    height: 200px;
+    
+}
+.card-botao{
+    width: 100%; /* Largura do elemento */
+    padding: 15px 0; /*espaçamento interno */
+    background-color:#003cff ; /*cor de fundo*/
+    color: #fff; /*cor de texto*/
+    font-family: Arial; /*Tipo de fonte*/
+    font-weight: bold; /* peso da fonte negrito*/
+}
+.card-descricao{
+    font-family: Arial; /* Tipo da fonte */
+    font-weight: Bold; /* Negrito*/
+    font-size: 18px;  /*tamanho da fonte */
+    margin-top: 10px; /* Margin Acima*/
+    margin-bottom: 50px; /* Margim embaixo */
+    padding-left: 10px; /* Espaçamento interno esquerda*/
+    padding-right: 10px; /* Espaçamento interno direita*/
+    text-align: center; /*alinhamento o text no centro*/
+}
+.card-preco{
+    font-family: Impact; /*tipo de fonte*/
+    font-size: 25px; /*tamanho da fonte */
+    color: #ff6500; /* cor da fonte */
+    margin-bottom: 45px; /* margem em baixo */
+    padding-left: 10%; /*espaçamento interno a esquerda*/
 }
